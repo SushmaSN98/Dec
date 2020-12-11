@@ -1,4 +1,6 @@
 package com.Xworkz.object.dto;
+//import com.Xworkz.object.Shape;
+
 
 enum Shape{
 	ROUND,SQUARE,DIAMOND,RECTANGLE,LOZENGE
@@ -16,15 +18,14 @@ public class SweetDTO {
 		this.name=name;
 		this.price=price;
 	}
-	Shape s1=Shape.LOZENGE;
+	
 	public SweetDTO(String popularState,String[] color,String quantity) {
 		this.popularState=popularState;
 		this.color=color;
 		//this.shape=shape;
 		this.quantity=quantity;
-		
-		
 	}
+		Shape s1=Shape.LOZENGE;
 	public String getName() {
 		return name;
 	}
